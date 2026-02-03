@@ -2,8 +2,8 @@
 # Menu de Restaurant
 
 **Nom de l'étudiant :** [Votre nom]  
-**Date :** [Date]  
-**Restaurant choisi :** [Nom de votre restaurant fictif ou inspiré]
+**Date :** [28 janvier 2026]  
+**Restaurant choisi :** Chez Roger: le maitre de la pannure
 
 ## Instructions de l'exercice
 
@@ -11,27 +11,43 @@
 
 ## Description
 
-[Décrivez brièvement votre menu et vos choix de design]
+- Entrées: 
+        Rondelles d'onions : Oignons panné, sauce épicée
+        Ailes de poulets épicées : Ailes frites, Servi avec sauce siracha
+        Dumplings frit bbq : Porc avec légumes, frits, sauce fumé
+- Plats: 
+        "Deep-fried" AAA waygu Angus Steak : Steak Waygu, panné, frites maison
+        Burger De Roger(populaire) : Bœuf Angus, galette hashbrown, oignons croustillants et sauce bbq à l'érable
+        Fish and Chips : Aiglefin, beer battered, frites maison
+- Desserts: 
+        Beigne maison : Beigne chauds, sauce chocolat noir
+        Gâteau au Fromage : Avec coulis de framboise
+        Sorbet Maison (végé) : Saveur de bleuet ou fraise, sans produits laitiers
+
 
 ## Choix techniques
 
 **Palette de couleurs :**
 
-- Primaire : #2c3e50
-- Secondaire : #e74c3c
-- [Ajoutez vos couleurs]
+- Primaire : #ded4b4
+- Secondaire : rgb(219, 151, 41)
+- 3e : rgb(107, 78, 60)
+- 4e : rgb(191, 0, 0)
+-5e : #000000ff
 
 **Police utilisée :**
 
-- [Nom de la police Google Fonts ou autre]
+- Oranienbaum
 
 **Décisions CSS notables :**
 
-- [Expliquez vos choix techniques intéressants]
+- J'ai garder mon code simple, j'ai majoritairement utilisé css pour changer la couleur de différents taille de titre et le background. J'ai 
 
 ## Difficultés rencontrées
 
 [Optionnel : Quels aspects ont été difficiles?]
+jai dufaire des recherches pour de l'aide: https://www.w3schools.com/tags/tag_hr.asp pour séparer mes sections, j'ai aussi utiliser des vieux travaux de web un quand je cherchais centrer mon menu, sinon ça n'a pas été trop compliqué
+
 
 ## Améliorations futures
 

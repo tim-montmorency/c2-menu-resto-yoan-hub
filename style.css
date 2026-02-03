@@ -9,21 +9,57 @@
 /* ========================================
    RÉINITIALISATION DE BASE
    ======================================== */
+  @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
+    font-family: 'Oranienbaum', serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
     font-size: 1rem;
     line-height: 1.6;
-    color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+    color: #7c7c80; /* Ajutez avec votre couleur de texte principale */
+    background-color: #ded4b4; /* Ajutez avec votre couleur de fond principale */
 }
 
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+  .menu{
+    max-width:800px;
+    border: double 7px rgb(107, 78, 60);
+    margin: 0 auto;  /*Centrer*/
+  }
+  
+   .menu__title{
+    text-transform: uppercase;
+    color: rgb(219, 151, 41);;
+    background-color:  rgb(107, 78, 60) ;
+    text-align: center;
+   }
+
+
+   .menu-category__title {
+    font-weight: bold;
+    color: rgb(107, 78, 60)
+    
+   }
+
+   .menu-item__price{
+    float: right; /*mettre prix a droite*/
+    color: rgb(191, 0, 0);
+    padding: 0px 40px;
+   }
+
+   .menu-item__title{
+      color: rgb(219, 151, 41);
+   }
+
+   .menu-item__ingredients{
+    color:black;
+   }
